@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'Satoshi_Variable';
+  src: url('./fonts/Satoshi-Variable.woff2') format('woff2'), /* Modern browsers */
+       url('./fonts/Satoshi-Variable.woff') format('woff'),   /* Good compatibility */
+       url('./fonts/Satoshi-Variable.ttf') format('truetype'); /* Fallback for older browsers */
+  font-weight: 300 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pp_Neue_Machina';
+  src: url('./fonts/PpNeueMachina-Regular.woff2') format('woff2'),
+       url('./fonts/PpNeueMachina-Regular.woff') format('woff'),
+       url('./fonts/PpNeueMachina-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-display: swap;
+}
+
+
+
+
 :root{
     --selection : #EE9D70;
     --black : #000;
